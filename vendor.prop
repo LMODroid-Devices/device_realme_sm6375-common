@@ -116,6 +116,7 @@ vendor.display.disable_excl_rect=0
 vendor.display.disable_excl_rect_partial_fb=1
 vendor.display.disable_hw_recovery_dump=1
 vendor.display.disable_offline_rotator=1
+vendor.display.disable_rotator_downscale=1
 vendor.display.disable_scaler=0
 vendor.display.enable_camera_smooth=1
 vendor.display.enable_async_powermode=0
@@ -146,9 +147,10 @@ persist.sys.fuse.passthrough.enable=true
 vendor.gatekeeper.disable_spu=true
 
 # Graphics
+debug.sf.auto_latch_unsignaled=0
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_advanced_sf_phase_offset=1
-debug.sf.enable_gl_backpressure=1
+debug.sf.enable_gl_backpressure=false
 debug.sf.enable_hwc_vds=0
 debug.sf.high_fps_early_gl_phase_offset_ns=-2000000
 debug.sf.high_fps_early_phase_offset_ns=-4000000
